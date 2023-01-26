@@ -55,16 +55,7 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],
-        */
-    ],
-    'urlManager' => [
             'class' => 'yii\web\UrlManager',
             // Disable index.php
             'showScriptName' => false,
@@ -76,6 +67,7 @@ $config = [
                     '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ),
         ],
+    ],
     'params' => $params,
 ];
 
