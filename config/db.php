@@ -27,9 +27,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'pgsql:host=ep-nameless-lab-385720.eu-central-1.aws.neon.tech;dbname=neondb;options=project=ep-nameless-lab-385720',
-    'username' => 'kahamirotadze',
-    'password' => 'efOqTVKWn6o9',
+    'dsn' => '',
+    'username' => '',
+    'password' => '',
     'charset' => 'utf8',
     'schemaMap' => [
         'pgsql' => [
